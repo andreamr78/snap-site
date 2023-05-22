@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:300,400,500i,900,900i');
+body{
+    background-color: white;
+    font-family: 'Epilogue';
+    overflow-x: hidden;
+}

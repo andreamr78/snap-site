@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Epilogue:300,400,500,700,900,900i');
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'Epilogue';
+    color: black;  
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+           
+svg{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-menu{
+    border-style: none;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.modal-open .offcanvas {
+    width: 45%;
+}
+
+.modal-open .dropdown-menu {
+    box-shadow: none;
+}
+
+.button-id{
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+.modal-open .button-id{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+button .navbar-toggler .collapsed{
+    border: none;
+}
+
+

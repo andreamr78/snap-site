@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Epilogue:300,400,500,700,900,900i');
+.site-container{
+    padding: 0;
+
+}
+h1{
+    font-weight: 700;
+    font-family: 'Epilogue';
+    color: black;  
+    font-size: 45px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h4{
+    font-weight: 300;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.rowstyle {
+    display: flex;
+    flex-direction: row !important;
+}
+ 
+
+.col-1{
+    padding: 30px;
+    padding-top: 30px;
+    /* background-color: aqua; */
+}
+
+.logo-row{
+    padding-top: 80px;
+    width: 100%;
+    /* width:fit-content; */
+}
+
+.logo-row svg{
+    width: inherit;
+    height: inherit;
+    overflow: visible;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-learn{
+    text-align: center; 
+}
+
+@media (min-width: 650px ) {
+    img{
+        max-width: 100%;
+        height: auto;
+        padding: 70px;
+        padding-top: 20px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-family: 'Epilogue';
+        color: black;  
+        font-size: 90px;
+        padding-top: 100px;
+        text-align:start
+    }
+
+    h4{
+        font-weight: 300;
+        color: gray;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align:start
+    }
+
+    .btn-learn{
+        text-align:start;
+    }
+}
+
